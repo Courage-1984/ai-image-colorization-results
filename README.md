@@ -60,9 +60,90 @@ Only issue I found that with the iColoriT, how it's set up, the resulting image 
 
 
 
+ # Text-Guided-Image-Colorization | [Repo]([https://github.com/pmh9960/iColoriT](https://github.com/nick8592/text-guided-image-colorization)) | [Download Pre-trained Models](https://github.com/nick8592/text-guided-image-colorization?tab=readme-ov-file#installation)
+
+Text-Guided-Image-Colorization uses a `ControlNet Model`, `Image Captioning Model`, `base model` & `Checkpoint`. Most are sdxl models.
+
+I ran it with the default settings (1st method) as well as alt settings (2nd method) to the default. I also used chatgpt to create prompts for me for the images (I'm not too good at that), so you could perhaps get better results than me with better prompts.
+
+**Here were my settings:**
+
+### 1st method:
+
+```
+Select ControlNet Model: sdxl_light_caption_output/checkpoint-30000/controlnet
+Select Image Captioning Model: blip-image-captioning-large
+positive prompt: chatgpt
+negative: low quality, bad quality, low contrast, black and white, bw, monochrome, grainy, blurry, historical, restored, desaturate
+seed: 123
+Steps: 8
+fp16
+base model: stabilityai/stable-diffusion-xl-base-1.0
+Repository: ByteDance/SDXL-Lightning
+Checkpoint: sdxl_lightning_8step_unet.safetensors
+```
+
+### 2nd method:
+
+```
+Select ControlNet Model: sdxl_light_custom_caption_output/checkpoint-30000/controlnet
+Select Image Captioning Model: blip-image-captioning-base
+positive prompt: chatgpt
+negative: low quality, bad quality, low contrast, black and white, bw, monochrome, grainy, blurry, historical, restored, desaturate
+seed: 123
+Steps: 8
+fp16
+base model: stabilityai/stable-diffusion-xl-base-1.0
+Repository: ByteDance/SDXL-Lightning
+Checkpoint: sdxl_lightning_8step_unet.safetensors
+```
+
+**Here were my prompts:**
+
+### 1st image prompt:
+
+```
+A black-and-white vintage wedding portrait of a couple. The groom is wearing a black suit, white shirt, and a black tie, with a white flower boutonniere on his left lapel. He has short dark hair and glasses. The bride is dressed in an ornate white wedding gown with lace detailing and long sleeves. She wears a white floral crown over her dark hair styled in a voluminous updo, with a sheer white veil cascading behind her. She holds a bouquet of white and light-colored flowers with trailing stems. The background is plain and neutral.
+```
+
+
+### 2nd image prompt:
+
+```
+A black-and-white photo of an older couple standing in front of a classic Volkswagen Beetle car. The man on the right is wearing glasses, a light-colored short-sleeved shirt, dark trousers, and dark shoes. He has a beard and is smiling. The woman on the left is wearing a light blouse, light-colored pants, and white slip-on shoes. She holds a small purse over her left arm and stands close to the man with her hand on his shoulder. The background features a suburban setting with brick houses, tiled roofs, and a driveway. The car has a light exterior and visible striped upholstery inside.
+```
+
+### Results
+
+| Original  | 1st Method | 2nd Method |
+| ------------- | ------------- | ------------- |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/text-guided-image-colorization/1%201st.jpeg" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/text-guided-image-colorization/1%202nd.jpeg" width="621" /> |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![1st Method](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/text-guided-image-colorization/2%201st.jpeg) | ![2nd Method](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/text-guided-image-colorization/2%202nd.jpeg)  |
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ----
+
+https://github.com/nick8592/text-guided-image-colorization?tab=readme-ov-file#installation
+
+
+<img src="" width="548" />
+
+
+<img src="" width="621" />
+
 
 
 ## Second Method:
