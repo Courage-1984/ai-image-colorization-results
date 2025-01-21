@@ -1,0 +1,16 @@
+
+1st:
+deoldify: "render_factor=42, artistic=False, pre_decolorization=False"
+
+
+2nd:
+deoldify: "render_factor=42, artistic=False, pre_decolorization=True"
+
+
+3rd:
+deoldify: "render_factor=42, artistic=True, pre_decolorization=False"
+
+
+4th:
+deoldify: "render_factor=42, artistic=True, pre_decolorization=True"
+
