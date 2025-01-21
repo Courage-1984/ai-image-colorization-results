@@ -44,14 +44,34 @@ I ran iColoriT two different ways:
 
 Only issue I found that with the iColoriT, how it's set up, the resulting image you save is not at the full resolution of the original image which is not ideal. You will have to edit the scripts to get the resulting image at full resolution.
 
+## First Method:
+
 | Original  | Base Model (ViT-B) | Small Model (ViT-S) | Tiny Model (ViT-Ti) |
 | ------------- | ------------- | ------------- | ------------- |
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="548" /> | ![Base Model (ViT-B)](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT1/1%20Base%20Model%20(ViT-B).png) | ![Small Model (ViT-S)](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT1/1%20Small%20Model%20(ViT-S).png)  | ![Tiny Model (ViT-Ti)](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT1/1%20Tiny%20Model%20(ViT-Ti).png) 
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="548" /> | ![Base Model (ViT-B)](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT1/2%20Base%20Model%20(ViT-B).png) | ![Small Model (ViT-S)](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT1/2%20Small%20Model%20(ViT-S).png)  | ![Tiny Model (ViT-Ti)](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT1/2%20Tiny%20Model%20(ViT-Ti).png)
 
+## Second Method:
+
+| Original  | Small Model (ViT-S) |
+| ------------- | ------------- |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="548" /> | ![Modelscope](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT2/1%20Small%20Model%20(ViT-S).png) |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="548" /> | ![Modelscope](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT2/2%20Small%20Model%20(ViT-S).png) |
+
+
+
 
 
 ----
+
+
+## Second Method:
+
+| Original  | Small Model (ViT-S) |
+| ------------- | ------------- |
+![Original]() | ![Modelscope]() |
+![Original]() | ![Modelscope]() |
+
 
 
 
