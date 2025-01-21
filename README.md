@@ -4,6 +4,8 @@ This repository contains the results of various AI Colorization methods/models t
 
 I tested 7 different Github repo implementations of AI Colorization.
 
+**If you only want to see the results visit:** https://github.com/Courage-1984/ai-image-colorization-results/blob/main/results.md
+
 note: the results I present are not definitive, you could perhaps get better results with tweaking etc.
 
 I tested the following repos:
