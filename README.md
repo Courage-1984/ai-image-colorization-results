@@ -32,8 +32,7 @@ I ran them using [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) and I was 
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![Modelscope](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DDColor/1%20(2)_ddcolor_modelscope.png) | ![Artistic](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DDColor/1%20(2)_ddcolor_artistic.png)  | ![Paper](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DDColor/1%20(2)_ddcolor_paper.png)
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![Modelscope](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DDColor/2_ddcolor_modelscope.png) | ![Artistic](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DDColor/2_ddcolor_artistic.png)  | ![Paper](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DDColor/2_ddcolor_paper.png)
 
-
-
+---
 
  # iColoriT | [Repo](https://github.com/pmh9960/iColoriT) | [Pretrained iColoriT Checkpoints](https://github.com/pmh9960/iColoriT?tab=readme-ov-file#pretrained-icolorit)
 
@@ -60,9 +59,9 @@ Only issue I found that with the iColoriT, how it's set up, the resulting image 
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="548" /> | ![Modelscope](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT2/1%20Small%20Model%20(ViT-S).png) |
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="548" /> | ![Modelscope](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT2/2%20Small%20Model%20(ViT-S).png) |
 
+---
 
-
- # Text-Guided-Image-Colorization | [Repo]([https://github.com/pmh9960/iColoriT](https://github.com/nick8592/text-guided-image-colorization)) | [Download Pre-trained Models](https://github.com/nick8592/text-guided-image-colorization?tab=readme-ov-file#installation)
+ # Text-Guided-Image-Colorization | [Repo](https://github.com/nick8592/text-guided-image-colorization) | [Download Pre-trained Models](https://github.com/nick8592/text-guided-image-colorization?tab=readme-ov-file#installation)
 
 Text-Guided-Image-Colorization uses a `ControlNet Model`, `Image Captioning Model`, `base model` & `Checkpoint`. Most are sdxl models.
 
@@ -122,6 +121,23 @@ A black-and-white photo of an older couple standing in front of a classic Volksw
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/text-guided-image-colorization/1%201st.jpeg" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/text-guided-image-colorization/1%202nd.jpeg" width="621" /> |
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![1st Method](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/text-guided-image-colorization/2%201st.jpeg) | ![2nd Method](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/text-guided-image-colorization/2%202nd.jpeg)  |
 
+---
+
+### The following 3 implementations all use methods and models presented at *ECCV* and *SIGGRAPH*
+
+
+
+
+ # Colorful Image Colorization | [Repo](https://github.com/richzhang/colorization)
+
+This implementation does the colorization automatically through a demo script and then presents/saves for you a *ECCV* and *SIGGRAPH* colorized version of your input image.
+
+| Original  | ECCV | SIGGRAPH |
+| ------------- | ------------- | ------------- |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/colorization/1_eccv16.png" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/colorization/1_siggraph17.png" width="621" /> |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![ECCV](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/colorization/2_eccv16.png) | ![SIGGRAPH](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/colorization/2_siggraph17.png)  |
+
+---
 
 
 
@@ -131,6 +147,32 @@ A black-and-white photo of an older couple standing in front of a classic Volksw
 
 
 
+
+
+
+
+
+
+ # Colorful Image Colorization | [Repo]()
+
+Description Here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Colorful Image Colorization | [Repo]()
+
+Description Here
 
 
 
@@ -138,7 +180,6 @@ A black-and-white photo of an older couple standing in front of a classic Volksw
 
 ----
 
-https://github.com/nick8592/text-guided-image-colorization?tab=readme-ov-file#installation
 
 
 <img src="" width="548" />
@@ -154,6 +195,15 @@ https://github.com/nick8592/text-guided-image-colorization?tab=readme-ov-file#in
 | ------------- | ------------- |
 ![Original]() | ![Modelscope]() |
 ![Original]() | ![Modelscope]() |
+
+
+
+
+| Original  | ECCV | SIGGRAPH |
+| ------------- | ------------- | ------------- |
+<img src="" width="621" /> | <img src="" width="621" /> | <img src="" width="621" /> |
+![Original]() | ![ECCV]() | ![SIGGRAPH]()  |
+
 
 
 
