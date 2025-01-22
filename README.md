@@ -18,9 +18,9 @@ I tested the following repos:
  - https://github.com/richzhang/colorization
  - https://github.com/junyanz/interactive-deep-colorization
 
- # Results
+# Results
 
- # DDColor | [Repo](https://github.com/piddnad/DDColor) | [Model Zoo](https://github.com/piddnad/DDColor/blob/master/MODEL_ZOO.md)
+# DDColor | [Repo](https://github.com/piddnad/DDColor) | [Model Zoo](https://github.com/piddnad/DDColor/blob/master/MODEL_ZOO.md)
 
 DDColor offers 4 models (`modelscope`, `artistic`, `paper` & `paper_tiny`), of which I used 3.
 
@@ -34,7 +34,7 @@ I ran them using [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) and I was 
 
 ---
 
- # iColoriT | [Repo](https://github.com/pmh9960/iColoriT) | [Pretrained iColoriT Checkpoints](https://github.com/pmh9960/iColoriT?tab=readme-ov-file#pretrained-icolorit)
+# iColoriT | [Repo](https://github.com/pmh9960/iColoriT) | [Pretrained iColoriT Checkpoints](https://github.com/pmh9960/iColoriT?tab=readme-ov-file#pretrained-icolorit)
 
 iColoriT offers 3 models (`Base Model (ViT-B)`, `Small Model (ViT-S)` & `Tiny Model (ViT-Ti)`).
 
@@ -45,14 +45,14 @@ I ran iColoriT two different ways:
 
 Only issue I found that with the iColoriT, how it's set up, the resulting image you save is not at the full resolution of the original image which is not ideal. You will have to edit the scripts to get the resulting image at full resolution.
 
-## First Method:
+### First Method:
 
 | Original  | Base Model (ViT-B) | Small Model (ViT-S) | Tiny Model (ViT-Ti) |
 | ------------- | ------------- | ------------- | ------------- |
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="548" /> | ![Base Model (ViT-B)](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT1/1%20Base%20Model%20(ViT-B).png) | ![Small Model (ViT-S)](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT1/1%20Small%20Model%20(ViT-S).png)  | ![Tiny Model (ViT-Ti)](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT1/1%20Tiny%20Model%20(ViT-Ti).png) 
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="548" /> | ![Base Model (ViT-B)](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT1/2%20Base%20Model%20(ViT-B).png) | ![Small Model (ViT-S)](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT1/2%20Small%20Model%20(ViT-S).png)  | ![Tiny Model (ViT-Ti)](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/iColoriT/iColoriT1/2%20Tiny%20Model%20(ViT-Ti).png)
 
-## Second Method:
+### Second Method:
 
 | Original  | Small Model (ViT-S) |
 | ------------- | ------------- |
@@ -61,7 +61,7 @@ Only issue I found that with the iColoriT, how it's set up, the resulting image 
 
 ---
 
- # Text-Guided-Image-Colorization | [Repo](https://github.com/nick8592/text-guided-image-colorization) | [Download Pre-trained Models](https://github.com/nick8592/text-guided-image-colorization?tab=readme-ov-file#installation)
+# Text-Guided-Image-Colorization | [Repo](https://github.com/nick8592/text-guided-image-colorization) | [Download Pre-trained Models](https://github.com/nick8592/text-guided-image-colorization?tab=readme-ov-file#installation)
 
 Text-Guided-Image-Colorization uses a `ControlNet Model`, `Image Captioning Model`, `base model` & `Checkpoint`. Most are sdxl models.
 
@@ -114,7 +114,7 @@ A black-and-white vintage wedding portrait of a couple. The groom is wearing a b
 A black-and-white photo of an older couple standing in front of a classic Volkswagen Beetle car. The man on the right is wearing glasses, a light-colored short-sleeved shirt, dark trousers, and dark shoes. He has a beard and is smiling. The woman on the left is wearing a light blouse, light-colored pants, and white slip-on shoes. She holds a small purse over her left arm and stands close to the man with her hand on his shoulder. The background features a suburban setting with brick houses, tiled roofs, and a driveway. The car has a light exterior and visible striped upholstery inside.
 ```
 
-### Results
+### Text-Guided-Image-Colorization Results:
 
 | Original  | 1st Method | 2nd Method |
 | ------------- | ------------- | ------------- |
@@ -126,7 +126,7 @@ A black-and-white photo of an older couple standing in front of a classic Volksw
 ### The following 3 implementations all use methods and models presented at *ECCV* and *SIGGRAPH*
 
 
- # Colorful Image Colorization | [Repo](https://github.com/richzhang/colorization)
+# Colorful Image Colorization | [Repo](https://github.com/richzhang/colorization)
 
 This implementation does the colorization automatically through a demo script and then presents/saves for you a *ECCV* and *SIGGRAPH* colorized version of your input image.
 
@@ -163,9 +163,58 @@ This implementation uses model from *SIGGRAPH*.
 
 ---
 
+# DeOldify | [Repo](https://github.com/jantic/DeOldify) | [Pretrained Weights](https://github.com/jantic/DeOldify?tab=readme-ov-file#pretrained-weights)
+
+This implementation can be used from a couple of places, each producing different results.
+
+I have tested the following 3 methods:
+
+1. [Stable Diffusion Web UI Plugin](https://github.com/SpenserCai/sd-webui-deoldify)
+2. [DeOldify Image Colorization on DeepAI](https://deepai.org/machine-learning-model/colorizer)
+3. [MyHeritage In Color](https://www.myheritage.com/incolor)
+
+Here is the descriptions of the 3 methods provided by the repo:
+
+1. **Stable Diffusion Web UI Plugin:** Stable Diffusion Web UI Plugin- Photos and video, cross-platform (NEW!).
+2. **DeOldify Image Colorization on DeepAI:** Quick Start: The easiest way to colorize images using open source DeOldify (for free!)
+3. **MyHeritage In Color:** The most advanced version of DeOldify image colorization is available here, exclusively. Try a few images for free! 
+
+### DeOldify Results:
 
 
+### Stable Diffusion Web UI Plugin:
 
+For this method there is 4 results as I used all the various possible combinations of the settings of this plugin.
+
+The **DeOldify Stable Diffusion Web UI Plugin Settings** were as follows:
+
+```
+1st combination: "render_factor=42, artistic=False, pre_decolorization=False"
+2nd combination: "render_factor=42, artistic=False, pre_decolorization=True"
+3rd combination: "render_factor=42, artistic=True, pre_decolorization=False"
+4th combination: "render_factor=42, artistic=True, pre_decolorization=True"
+```
+
+| Original  | 1st combination | 2nd combination | 3rd combination | 4th combination |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![1st combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/1%201st.png) | ![2nd combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/1%202nd.png)  | ![3rd combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/1%203rd.png) | ![4th combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/1%204th.png)
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![1st combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/2%201st.png) | ![2nd combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/2%202nd.png)  | ![3rd combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/2%203rd.png) | ![4th combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/2%204th.png)
+
+
+### DeOldify Image Colorization on DeepAI:
+
+| Original  | Colorized Result |
+| ------------- | ------------- |
+![Original]() | ![Colorized Result]() |
+![Original]() | ![Colorized Result]() |
+
+
+### MyHeritage In Color:
+
+| Original  | Colorized Result |
+| ------------- | ------------- |
+![Original]() | ![Colorized Result]() |
+![Original]() | ![Colorized Result]() |
 
 
 
@@ -209,10 +258,10 @@ This implementation uses model from *SIGGRAPH*.
 
 
 
-| Original  | Modelscope | Artistic | Paper |
-| ------------- | ------------- | ------------- | ------------- |
-![Original]() | ![Modelscope]() | ![Artistic]()  | ![Paper]()
-![Original]() | ![Modelscope]() | ![Artistic]()  | ![Paper]()
+| Original  | Modelscope | Artistic | Paper | Paper |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+![Original]() | ![Modelscope]() | ![Artistic]()  | ![Paper]() | ![Paper]()
+![Original]() | ![Modelscope]() | ![Artistic]()  | ![Paper]() | ![Paper]()
 
 
 
