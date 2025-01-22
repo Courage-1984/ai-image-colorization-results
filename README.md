@@ -126,8 +126,6 @@ A black-and-white photo of an older couple standing in front of a classic Volksw
 ### The following 3 implementations all use methods and models presented at *ECCV* and *SIGGRAPH*
 
 
-
-
  # Colorful Image Colorization | [Repo](https://github.com/richzhang/colorization)
 
 This implementation does the colorization automatically through a demo script and then presents/saves for you a *ECCV* and *SIGGRAPH* colorized version of your input image.
