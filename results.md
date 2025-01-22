@@ -73,18 +73,21 @@
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="894" /> | ![1st combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/2%201st.png) | ![2nd combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/2%202nd.png)  | ![3rd combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/2%203rd.png) | ![4th combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/2%204th.png)
 
 
+### DeOldify Image Colorization on DeepAI:
+
+| Original  | Colorized Result |
+| ------------- | ------------- |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/deepai/1.jpg) |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/deepai/2.jpg) |
 
 
+### MyHeritage In Color:
 
+| Original  | Colorized Result |
+| ------------- | ------------- |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/1.jpg) |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/2.jpg) |
 
+---
 
-
-
-
-
-
-
-
-
-
-
+### Hope you found this useful!

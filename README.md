@@ -203,76 +203,25 @@ The **DeOldify Stable Diffusion Web UI Plugin Settings** were as follows:
 
 ### DeOldify Image Colorization on DeepAI:
 
+Unfortunately this doesn't give your image back at full resolution.
+
 | Original  | Colorized Result |
 | ------------- | ------------- |
-![Original]() | ![Colorized Result]() |
-![Original]() | ![Colorized Result]() |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/deepai/1.jpg) |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/deepai/2.jpg) |
 
 
 ### MyHeritage In Color:
 
+Unfortunately this doesn't give your image back at full resolution.
+
 | Original  | Colorized Result |
 | ------------- | ------------- |
-![Original]() | ![Colorized Result]() |
-![Original]() | ![Colorized Result]() |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/1.jpg) |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/2.jpg) |
 
 
+---
 
-
-
-
-
-<img src="" width="894" />
-
-
-
-
-
-----
-
-
-
-<img src="" width="548" />
-
-
-<img src="" width="621" />
-
-
-
-## Second Method:
-
-| Original  | Small Model (ViT-S) |
-| ------------- | ------------- |
-![Original]() | ![Modelscope]() |
-![Original]() | ![Modelscope]() |
-
-
-
-
-| Original  | ECCV | SIGGRAPH |
-| ------------- | ------------- | ------------- |
-<img src="" width="621" /> | <img src="" width="621" /> | <img src="" width="621" /> |
-![Original]() | ![ECCV]() | ![SIGGRAPH]()  |
-
-
-
-
-
-| Original  | Modelscope | Artistic | Paper | Paper |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-![Original]() | ![Modelscope]() | ![Artistic]()  | ![Paper]() | ![Paper]()
-![Original]() | ![Modelscope]() | ![Artistic]()  | ![Paper]() | ![Paper]()
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Hope you found this useful!
 
