@@ -207,8 +207,8 @@ Unfortunately this doesn't give your image back at full resolution.
 
 | Original  | Colorized Result |
 | ------------- | ------------- |
-<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/deepai/1.jpg) |
-<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/deepai/2.jpg) |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="554" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/deepai/1.jpg) |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="554" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/deepai/2.jpg) |
 
 
 ### MyHeritage In Color:
