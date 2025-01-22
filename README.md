@@ -141,10 +141,25 @@ This implementation does the colorization automatically through a demo script an
 
 This implementation is a bit more user friendly then the previous one has it offers a GUI. It also offers extra functionality where you can colorize input videos and YouTube links/videos along with the option of colorizing images.
 
+The image colorization results is the same as the previous implementation. I did not test videos.
+
 | Original  | ECCV | SIGGRAPH |
 | ------------- | ------------- | ------------- |
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/image-video-colorization/1%20ECCV16.jpg" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/image-video-colorization/1%20SIGGRAPH17.jpg" width="621" /> |
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![ECCV](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/image-video-colorization/2%20ECCV16.jpg) | ![SIGGRAPH](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/image-video-colorization/2%20SIGGRAPH17.jpg)  |
+
+---
+
+# Interactive Deep Colorization | [Repo](https://github.com/junyanz/interactive-deep-colorization)
+
+This implementation also provides a GUI. It initially does an auto colorization of your input image but then you can also manually colorize your input image. What is nice when you manually colorize your input image is that it provides you with colour hints and a color gamut which both are this implementation's estimation of what it thinks the colour should be at the point which you selected on the input image.
+
+This implementation uses model from *SIGGRAPH*.
+
+| Original  | Auto | Manual |
+| ------------- | ------------- | ------------- |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/interactive-deep-colorization/1%20auto.png" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/interactive-deep-colorization/1%20manual.png" width="621" /> |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![Auto](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/interactive-deep-colorization/2%20auto.png) | ![Manual](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/interactive-deep-colorization/2%20manual.png)  |
 
 ---
 
@@ -159,17 +174,6 @@ This implementation is a bit more user friendly then the previous one has it off
 
 
 
-
-
-
-
-
-
-
-
- # Colorful Image Colorization | [Repo]()
-
-Description Here
 
 
 

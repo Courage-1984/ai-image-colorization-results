@@ -54,6 +54,21 @@
 
 ---
 
+## Interactive Deep Colorization
+
+| Original  | Auto | Manual |
+| ------------- | ------------- | ------------- |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/interactive-deep-colorization/1%20auto.png" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/interactive-deep-colorization/1%20manual.png" width="621" /> |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![Auto](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/interactive-deep-colorization/2%20auto.png) | ![Manual](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/interactive-deep-colorization/2%20manual.png)  |
+
+---
+
+## 
+
+
+
+
+
 
 
 
