@@ -36,7 +36,7 @@
 
 ---
 
-## Text-Guided-Image-Colorization
+## Colorful Image Colorization
 
 | Original  | ECCV | SIGGRAPH |
 | ------------- | ------------- | ------------- |
@@ -45,6 +45,14 @@
 
 ---
 
+## Image Video Colorization
+
+| Original  | ECCV | SIGGRAPH |
+| ------------- | ------------- | ------------- |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/image-video-colorization/1%20ECCV16.jpg" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/image-video-colorization/1%20SIGGRAPH17.jpg" width="621" /> |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![ECCV](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/image-video-colorization/2%20ECCV16.jpg) | ![SIGGRAPH](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/image-video-colorization/2%20SIGGRAPH17.jpg)  |
+
+---
 
 
 

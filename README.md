@@ -137,23 +137,22 @@ This implementation does the colorization automatically through a demo script an
 
 ---
 
+# Image Video Colorization | [Repo](https://github.com/Wazzabeee/image-video-colorization)
+
+This implementation is a bit more user friendly then the previous one has it offers a GUI. It also offers extra functionality where you can colorize input videos and YouTube links/videos along with the option of colorizing images.
+
+| Original  | ECCV | SIGGRAPH |
+| ------------- | ------------- | ------------- |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/image-video-colorization/1%20ECCV16.jpg" width="621" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/image-video-colorization/1%20SIGGRAPH17.jpg" width="621" /> |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![ECCV](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/image-video-colorization/2%20ECCV16.jpg) | ![SIGGRAPH](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/image-video-colorization/2%20SIGGRAPH17.jpg)  |
+
+---
 
 
 
 
 
 
-
-
-
-
-
-
-
-
- # Colorful Image Colorization | [Repo]()
-
-Description Here
 
 
 
