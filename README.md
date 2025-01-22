@@ -1,7 +1,19 @@
-# AI Image Colorization results
+# AI Image Colorization Results
 
 This repository contains the results of various AI Colorization methods/models tested by me.
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Results](#results)
+  - [DDColor](#ddcolor--repo--model-zoo)
+  - [iColoriT](#icolorit--repo--pretrained-icolorit-checkpoints)
+  - [Text-Guided-Image-Colorization](#text-guided-image-colorization--repo--download-pre-trained-models)
+  - [Colorful Image Colorization](#colorful-image-colorization--repo)
+  - [Image Video Colorization](#image-video-colorization--repo)
+  - [Interactive Deep Colorization](#interactive-deep-colorization--repo)
+  - [DeOldify](#deoldify--repo--pretrained-weights)
+
+## Introduction
 I tested 7 different Github repo implementations of AI Colorization.
 
 **If you only want to see the results visit:** https://github.com/Courage-1984/ai-image-colorization-results/blob/main/results.md
@@ -10,13 +22,14 @@ note: the results I present are not definitive, you could perhaps get better res
 
 I tested the following repos:
 
- - https://github.com/piddnad/DDColor
- - https://github.com/pmh9960/iColoriT
- - https://github.com/nick8592/text-guided-image-colorization
- - https://github.com/jantic/DeOldify
- - https://github.com/Wazzabeee/image-video-colorization
- - https://github.com/richzhang/colorization
- - https://github.com/junyanz/interactive-deep-colorization
+ - https://github.com/piddnad/DDColor - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#ddcolor--repo--model-zoo)
+ - https://github.com/pmh9960/iColoriT - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#icolorit--repo--pretrained-icolorit-checkpoints)
+ - https://github.com/nick8592/text-guided-image-colorization - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#text-guided-image-colorization--repo--download-pre-trained-models)
+ - https://github.com/richzhang/colorization - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#colorful-image-colorization--repo)
+ - https://github.com/Wazzabeee/image-video-colorization - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#colorful-image-colorization--repo)
+ - https://github.com/junyanz/interactive-deep-colorization - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#interactive-deep-colorization--repo)
+ - https://github.com/jantic/DeOldify - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#deoldify--repo--pretrained-weights)
+
 
 # Results
 
