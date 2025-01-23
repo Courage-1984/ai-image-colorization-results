@@ -12,6 +12,7 @@ This repository contains the results of various AI Colorization methods/models t
   - [Image Video Colorization](#image-video-colorization--repo)
   - [Interactive Deep Colorization](#interactive-deep-colorization--repo)
   - [DeOldify](#deoldify--repo--pretrained-weights)
+- [Extra](#extra)
 - [License](#license)
 
 ## Introduction
@@ -239,6 +240,12 @@ Unfortunately this doesn't give your image back at full resolution.
 ---
 
 ### Hope you found this useful!
+
+---
+
+## Extra
+
+Here is another nice [Colorization Showcase](https://phhofm.github.io/upscale/colorization.html)
 
 ---
 
