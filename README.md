@@ -12,8 +12,10 @@ This repository contains the results of various AI Colorization methods/models t
   - [Image Video Colorization](#image-video-colorization--repo)
   - [Interactive Deep Colorization](#interactive-deep-colorization--repo)
   - [DeOldify](#deoldify--repo--pretrained-weights)
+- [License](#license)
 
 ## Introduction
+
 I tested 7 different Github repo implementations of AI Colorization.
 
 **If you only want to see the results visit:** https://github.com/Courage-1984/ai-image-colorization-results/blob/main/results.md
@@ -238,3 +240,14 @@ Unfortunately this doesn't give your image back at full resolution.
 
 ### Hope you found this useful!
 
+---
+
+## License
+
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+[AI Image Colorization Results](https://github.com/Courage-1984/ai-image-colorization-results) © 2025 by [Courage (Courage-1984)](https://github.com/Courage-1984) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)
+
+<img width="20" height="20" src=""> <img width="20" height="20" src=""> <img width="20" height="20" src=""> 
+
+---
