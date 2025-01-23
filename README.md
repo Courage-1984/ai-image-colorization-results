@@ -244,10 +244,8 @@ Unfortunately this doesn't give your image back at full resolution.
 
 ## License
 
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+**Creative Commons Attribution Share Alike 4.0 International (CC-BY-SA-4.0)**
 
-[AI Image Colorization Results](https://github.com/Courage-1984/ai-image-colorization-results) © 2025 by [Courage (Courage-1984)](https://github.com/Courage-1984) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)
-
-<img width="20" height="20" src=""> <img width="20" height="20" src=""> <img width="20" height="20" src=""> 
+[AI Image Colorization Results](https://github.com/Courage-1984/ai-image-colorization-results) © 2025 by [Courage (Courage-1984)](https://github.com/Courage-1984) is licensed under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)  <img width="20" height="20" src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/cc.png">   <img width="20" height="20" src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/cc-by.png">   <img width="20" height="20" src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/cc-sa.png"> 
 
 ---
