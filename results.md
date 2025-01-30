@@ -11,19 +11,19 @@
 
 ## Other Open Models (old)
 
-### BS_Colorizer/Vapourizer
+## BS_Colorizer/Vapourizer
 
 | Original  | BS_Colorizer/Vapourizer |
 | ------------- | ------------- |
-<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="621" /> | ![BS_Colorizer/Vapourizer](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BS_Colorizer%20-%20Vapourizer/1_1x_ColorizerV2_22000G.png) |
-<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="621" /> | ![BS_Colorizer/Vapourizer](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BS_Colorizer%20-%20Vapourizer/2_1x_ColorizerV2_22000G.png) |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![BS_Colorizer/Vapourizer](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BS_Colorizer%20-%20Vapourizer/1_1x_ColorizerV2_22000G.png) |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![BS_Colorizer/Vapourizer](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BS_Colorizer%20-%20Vapourizer/2_1x_ColorizerV2_22000G.png) |
 
-### SpongeColor Lite
+## SpongeColor Lite
 
 | Original  | SpongeColor Lite |
 | ------------- | ------------- |
-<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="621" /> | ![SpongeColor Lite](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/SpongeColor%20Lite/1_1x-SpongeColor-Lite.png) |
-<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="621" /> | ![SpongeColor Lite](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/SpongeColor%20Lite/2_1x-SpongeColor-Lite.png) |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![SpongeColor Lite](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/SpongeColor%20Lite/1_1x-SpongeColor-Lite.png) |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![SpongeColor Lite](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/SpongeColor%20Lite/2_1x-SpongeColor-Lite.png) |
 
 ---
 
