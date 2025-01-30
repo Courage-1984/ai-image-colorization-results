@@ -26,7 +26,7 @@
 ![Original]() | ![ECCV]() | ![SIGGRAPH]()  |
 
 
-| Original  | Modelscope | Artistic | Paper | Paper |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-![Original]() | ![Modelscope]() | ![Artistic]()  | ![Paper]() | ![Paper]()
-![Original]() | ![Modelscope]() | ![Artistic]()  | ![Paper]() | ![Paper]()
+| Original  | Modelscope | Artistic | Paper | Paper | Paper |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+![Original]() | ![Modelscope]() | ![Artistic]()  | ![Paper]() | ![Paper]() | ![Paper]()
+![Original]() | ![Modelscope]() | ![Artistic]()  | ![Paper]() | ![Paper]() | ![Paper]()
