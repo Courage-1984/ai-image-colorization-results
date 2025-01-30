@@ -21,6 +21,7 @@ This repository contains the results of various AI Colorization methods/models t
     - [Google Colab](#google-colab)
     - [DeOldify.NET](#deoldifynet)
   - [Adobe Photoshop](#adobe-photoshop--Link)
+  - [BigColor](#bigcolor)
 - [Extra](#extra)
 - [License](#license)
 
@@ -292,9 +293,14 @@ I am only providing the result generated with `render_factor` of `35`. All the r
 
 ### DeOldify.NET:
 
-description
+You run scripts to create `.exe` files which each uses different models. The `.exe` then gives you a nice GUI to select input image, 'DeOldify' and save output image.
 
+Here I only provide the results of the `.exe` using `Artistic colorizer with float32 weights` and `Stable colorizer with float32 weights` as the results from the different models are quite similar. All the results can be seen here: [Stable](https://slow.pics/c/vkDJTEpI?canvas-mode=fit-height&image-fit=contain) & [Artistic](https://slow.pics/c/7BU2GHpj?canvas-mode=fit-height&image-fit=contain).
 
+| Original  | Stable float32 | Artistic float32 |
+| ------------- | ------------- | ------------- |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![Stable float32](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/DeOldify.NET/Stable/1-DeOldify.NET.stable_float32.windows.png) | ![Artistic float32](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/DeOldify.NET/Artistic/1-DeOldify.NET.artistic_float32.windows.png) |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![Stable float32](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/DeOldify.NET/Stable/2-DeOldify.NET.stable_float32.windows.png) | ![Artistic float32](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/DeOldify.NET/Artistic/2-DeOldify.NET.artistic_float32.windows.png) |
 
 ---
 
@@ -306,6 +312,32 @@ Using the `Colorize` `Neural Filters` from Adobe Photoshop you can get quite goo
 | ------------- | ------------- |
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![Adobe Photoshop_Neural Filters_Colorize](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/Adobe%20Photoshop/1_Adobe%20Photoshop_Neural%20Filters_Colorize.png) |
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![Adobe Photoshop_Neural Filters_Colorize](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/Adobe%20Photoshop/2_Adobe%20Photoshop_Neural%20Filters_Colorize.png) |
+
+---
+
+# BigColor | [Repo](https://github.com/KIMGEONUNG/BigColor) | [Download Pre-trained Models](https://drive.google.com/drive/folders/1nLzgE5WJnxp5WF1dkpa1ts6bZ6tVwtep)
+
+BigColor is a bit of a *step-up* from other implementations as it uses the models presented at *ECCV 2022*.
+
+It also provides 4 scripts with the following descriptions:
+
+**infer.bigcolor.e011.sh :** **ImageNet1K Validation :** Use this to get the same inference results as used in the paper.
+**colorize.real.sh :** **Real Gray Colorization :** Use this to colorize a real grayscale image with arbitrary resolution.
+**colorize.multi_c.sh :** **Multi-modal Solutions :** Use this to test the multiple solutions from a input (*using class vector c*).
+**colorize.multi_z.sh :** **Multi-modal Solutions :** Use this to test the multiple solutions from a input (*using random vector z*).
+
+BigColor also uses 'Wordnet' class classification to generate the output image which can be modified to your liking. **infer.bigcolor.e011.sh** uses a hard-coded class, **colorize.real.sh** actually determines the content of the image and then uses appropriate classes, **colorize.multi_c.sh** uses a set of random hard-coded classes and **colorize.multi_z.sh** uses a single hard-coded class.
+
+^ These scripts are setup to use datasets already provided by the repo but I modified the implementation to use my own 2 B&W images. If you can grasp how these scripts work then you could perhaps modify the logic and perhaps get better results than what I got.
+
+**You can check the file names of the [BigColor results](https://github.com/Courage-1984/ai-image-colorization-results/tree/main/Colorization_tests/Results/BigColor) in this repo to see the parameters/arguments and classes used to generate them.**
+
+### BigColor Results:
+
+### infer.bigcolor.e011.sh:
+
+
+
 
 ---
 

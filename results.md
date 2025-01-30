@@ -117,6 +117,15 @@ I am only providing the result generated with `render_factor` of `35`. All the r
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![Stable 35](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/Google%20Colab/2-Stable%20Colorizer/2-Stable%20Colorizer-35.png) | ![Artistic 35](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/Google%20Colab/2-Artistic%20Colorizer/2-Artistic%20Colorizer-35.png) |
 
 
+### DeOldify.NET:
+
+Here I only provide the results of the `.exe` using `Artistic colorizer with float32 weights` and `Stable colorizer with float32 weights` as the results from the different models are quite similar. All the results can be seen here: [Stable](https://slow.pics/c/vkDJTEpI?canvas-mode=fit-height&image-fit=contain) & [Artistic](https://slow.pics/c/7BU2GHpj?canvas-mode=fit-height&image-fit=contain).
+
+| Original  | Stable float32 | Artistic float32 |
+| ------------- | ------------- | ------------- |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![Stable float32](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/DeOldify.NET/Stable/1-DeOldify.NET.stable_float32.windows.png) | ![Artistic float32](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/DeOldify.NET/Artistic/1-DeOldify.NET.artistic_float32.windows.png) |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![Stable float32](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/DeOldify.NET/Stable/2-DeOldify.NET.stable_float32.windows.png) | ![Artistic float32](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/DeOldify.NET/Artistic/2-DeOldify.NET.artistic_float32.windows.png) |
+
 ---
 
 ## Adobe Photoshop
@@ -125,6 +134,10 @@ I am only providing the result generated with `render_factor` of `35`. All the r
 | ------------- | ------------- |
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![Adobe Photoshop_Neural Filters_Colorize](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/Adobe%20Photoshop/1_Adobe%20Photoshop_Neural%20Filters_Colorize.png) |
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![Adobe Photoshop_Neural Filters_Colorize](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/Adobe%20Photoshop/2_Adobe%20Photoshop_Neural%20Filters_Colorize.png) |
+
+---
+
+## 
 
 ---
 
