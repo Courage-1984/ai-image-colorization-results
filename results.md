@@ -109,6 +109,8 @@
 
 ### Google Colab:
 
+I am only providing the result generated with `render_factor` of `35`. All the results can be seen here: [Google Colab - Stable](https://slow.pics/c/oQ2kYs3P?canvas-mode=fit-height&image-fit=contain) & [Google Colab - Artistic](https://slow.pics/c/OiJ1GVkv?canvas-mode=fit-height&image-fit=contain).
+
 | Original  | Stable 35 | Artistic 35 |
 | ------------- | ------------- | ------------- |
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![Stable 35](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/Google%20Colab/1-Stable%20Colorizer/1-Stable%20Colorizer-35.png) | ![Artistic 35](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/Google%20Colab/1-Artistic%20Colorizer/1-Artistic%20Colorizer-35.png) |

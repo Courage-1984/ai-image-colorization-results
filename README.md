@@ -282,7 +282,7 @@ Unfortunately this doesn't give your image back at full resolution.
 
 Easy to run in your browser, just have to provide a link (`source_url`) to your image before initiating Runtime. Additionally what is nice is this colab also produces multiple outputs generated with different `render_factor` values (10>38, incrementing by 2).
 
-I am only providing the result generated with `render_factor` of `35`. All the results can be seen here: [Google Colab - Stable]() & [Google Colab - Artistic]().
+I am only providing the result generated with `render_factor` of `35`. All the results can be seen here: [Google Colab - Stable](https://slow.pics/c/oQ2kYs3P?canvas-mode=fit-height&image-fit=contain) & [Google Colab - Artistic](https://slow.pics/c/OiJ1GVkv?canvas-mode=fit-height&image-fit=contain).
 
 | Original  | Stable 35 | Artistic 35 |
 | ------------- | ------------- | ------------- |
