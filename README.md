@@ -21,7 +21,7 @@ This repository contains the results of various AI Colorization methods/models t
     - [Google Colab](#google-colab)
     - [DeOldify.NET](#deoldifynet)
   - [Adobe Photoshop](#adobe-photoshop--Link)
-  - [BigColor](#bigcolor)
+  - [BigColor](#bigcolor--repo--download-pre-trained-models)
 - [Extra](#extra)
 - [License](#license)
 
