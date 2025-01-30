@@ -8,7 +8,7 @@
 
 ## Second Method:
 
-| Original  | Small Model (ViT-S) |
+| Original  | Modelscope |
 | ------------- | ------------- |
 ![Original]() | ![Modelscope]() |
 ![Original]() | ![Modelscope]() |
