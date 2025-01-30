@@ -4,11 +4,9 @@ This repository contains the results of various AI Colorization methods/models t
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [My Recommendations](#my-recommendations)
 - [Results](#results)
   - [DDColor](#ddcolor--repo--model-zoo)
-  - [Other Open Models (old)](#other-open-models-old)
-    - [BS_Colorizer/Vapourizer](#bs_colorizervapourizer--model)
-    - [SpongeColor Lite](#spongecolor-lite--model)
   - [iColoriT](#icolorit--repo--pretrained-icolorit-checkpoints)
   - [Text-Guided-Image-Colorization](#text-guided-image-colorization--repo--download-pre-trained-models)
   - [Colorful Image Colorization](#colorful-image-colorization--repo)
@@ -22,37 +20,61 @@ This repository contains the results of various AI Colorization methods/models t
     - [DeOldify.NET](#deoldifynet)
   - [Adobe Photoshop](#adobe-photoshop--Link)
   - [BigColor](#bigcolor--repo--download-pre-trained-models)
+  - [Other Open Models (old)](#other-open-models-old)
+    - [BS_Colorizer/Vapourizer](#bs_colorizervapourizer--model)
+    - [SpongeColor Lite](#spongecolor-lite--model)
+- [My Recommendations Showcase](#my-recommendations-showcase)
 - [Extra](#extra)
 - [License](#license)
 
-## Introduction
-I tested 11 different `Github repo implementations`/`models`/`implementations`/`software` of AI Colorization.
+---
+
+# Introduction
+I tested 11 different `Github repo implementations`/`models`/`implementations`/`software` of AI Colorization. I tried to stick to FOSS sources but 2 of the implementations are not, DeOldify's [MyHeritage In Color](#myheritage-in-color) uses a closed model & the other one is [Adobe Photoshop](#adobe-photoshop--Link) which obviously is not FOSS.
 
 **If you only want to see the results visit:** [results.md](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/results.md)
 
-note: the results I present are not definitive, you could perhaps get better results with tweaking the implementation's settings/prompts/parameters etc as well as using the manual methods where available.
+note: **the results I present are not definitive, you could perhaps get better results with tweaking the implementation's settings/prompts/parameters etc as well as using the manual methods where available.**
 
 I tested the following:
 
  - https://github.com/piddnad/DDColor - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#ddcolor--repo--model-zoo)
- - https://openmodeldb.info/models/1x-BS-Colorizer - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#bs_colorizervapourizer--model)
- - https://openmodeldb.info/models/1x-SpongeColor-Lite - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#spongecolor-lite--model)
  - https://github.com/pmh9960/iColoriT - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#icolorit--repo--pretrained-icolorit-checkpoints)
  - https://github.com/nick8592/text-guided-image-colorization - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#text-guided-image-colorization--repo--download-pre-trained-models)
  - https://github.com/richzhang/colorization - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#colorful-image-colorization--repo)
  - https://github.com/Wazzabeee/image-video-colorization - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#colorful-image-colorization--repo)
  - https://github.com/junyanz/interactive-deep-colorization - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#interactive-deep-colorization--repo)
  - https://github.com/jantic/DeOldify - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#deoldify--repo--pretrained-weights)
+ - https://www.adobe.com/products/photoshop.html - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#adobe-photoshop--Link)
+ - https://github.com/KIMGEONUNG/BigColor - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#bigcolor--repo--download-pre-trained-models)
+ - https://openmodeldb.info/models/1x-BS-Colorizer - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#bs_colorizervapourizer--model)
+ - https://openmodeldb.info/models/1x-SpongeColor-Lite - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#spongecolor-lite--model)
 
+---
+
+# My Recommendations
+
+Some people might come here to just find the best colorization method/model/implementation/software, so I'll provide my recommendations here at the beginning.
+
+Scroll to the bottom or [click here to go to 'My Recommendations' Showcase](#my-recommendations-showcase).
+
+I do invite you though to read the rest of the [README.md](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/README.md) as it is quite interesting and informative and you might find something you wanted that is perhaps not here in 'My Recommendations'. Remember 'My Recommendations' is subjective and the testing/evaluations was done on a small dataset and with a basic understanding of the different implementations' *scripts*.
+
+So here are my recommendations:
+
+1. 
+2. 
+3. 
+
+---
 
 # Results
 
-# DDColor | [Repo](https://github.com/piddnad/DDColor) | [Model Zoo](https://github.com/piddnad/DDColor/blob/master/MODEL_ZOO.md)
+## DDColor | [Repo](https://github.com/piddnad/DDColor) | [Model Zoo](https://github.com/piddnad/DDColor/blob/master/MODEL_ZOO.md)
 
 DDColor offers 4 models (`modelscope`, `artistic`, `paper` & `paper_tiny`), of which I used 3.
 
 I ran them using [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) and I was quite pleased with the **Modelscope** results.
-
 
 | Original  | Modelscope | Artistic | Paper |
 | ------------- | ------------- | ------------- | ------------- |
@@ -61,35 +83,7 @@ I ran them using [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) and I was 
 
 ---
 
-# Other Open Models (old)
-
-These models are very old and don't produce very good results but I thought I would include them for completeness.
-
-I ran them using [chaiNNer](https://github.com/chaiNNer-org/chaiNNer).
-
-## BS_Colorizer/Vapourizer | [Model](https://openmodeldb.info/models/1x-BS-Colorizer)
-
-Model description:
-> B/W | 100% Desaturated images. It mostly results in Blue and Yellow images with slight hints of Green, Orange and Magenta. You are free to use this as a pretrain to achieve better results.
-
-| Original  | BS_Colorizer/Vapourizer |
-| ------------- | ------------- |
-![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![BS_Colorizer/Vapourizer](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BS_Colorizer%20-%20Vapourizer/1_1x_ColorizerV2_22000G.png) |
-![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![BS_Colorizer/Vapourizer](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BS_Colorizer%20-%20Vapourizer/2_1x_ColorizerV2_22000G.png) |
-
-## SpongeColor Lite | [Model](https://openmodeldb.info/models/1x-SpongeColor-Lite)
-
-Model description:
-> The first attempt at ESRGAN colorization that produces more than 2 colors. Doesn't work that great but it was a neat experiment.
-
-| Original  | SpongeColor Lite |
-| ------------- | ------------- |
-![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![SpongeColor Lite](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/SpongeColor%20Lite/1_1x-SpongeColor-Lite.png) |
-![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![SpongeColor Lite](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/SpongeColor%20Lite/2_1x-SpongeColor-Lite.png) |
-
----
-
-# iColoriT | [Repo](https://github.com/pmh9960/iColoriT) | [Pretrained iColoriT Checkpoints](https://github.com/pmh9960/iColoriT?tab=readme-ov-file#pretrained-icolorit)
+## iColoriT | [Repo](https://github.com/pmh9960/iColoriT) | [Pretrained iColoriT Checkpoints](https://github.com/pmh9960/iColoriT?tab=readme-ov-file#pretrained-icolorit)
 
 iColoriT offers 3 models (`Base Model (ViT-B)`, `Small Model (ViT-S)` & `Tiny Model (ViT-Ti)`).
 
@@ -99,6 +93,8 @@ I ran iColoriT two different ways:
 2. The second I used the GUI and manually tried my best to colour it in with the hints it provided. I only used the `small` model for this method.
 
 Only issue I found that with the iColoriT, how it's set up, the resulting image you save is not at the full resolution of the original image which is not ideal. You will have to edit the scripts to get the resulting image at full resolution.
+
+### iColoriT Results:
 
 ### First Method:
 
@@ -116,7 +112,7 @@ Only issue I found that with the iColoriT, how it's set up, the resulting image 
 
 ---
 
-# Text-Guided-Image-Colorization | [Repo](https://github.com/nick8592/text-guided-image-colorization) | [Download Pre-trained Models](https://github.com/nick8592/text-guided-image-colorization?tab=readme-ov-file#installation)
+## Text-Guided-Image-Colorization | [Repo](https://github.com/nick8592/text-guided-image-colorization) | [Download Pre-trained Models](https://github.com/nick8592/text-guided-image-colorization?tab=readme-ov-file#installation)
 
 Text-Guided-Image-Colorization uses a `ControlNet Model`, `Image Captioning Model`, `base model` & `Checkpoint`. Most are sdxl models.
 
@@ -162,7 +158,6 @@ Checkpoint: sdxl_lightning_8step_unet.safetensors
 A black-and-white vintage wedding portrait of a couple. The groom is wearing a black suit, white shirt, and a black tie, with a white flower boutonniere on his left lapel. He has short dark hair and glasses. The bride is dressed in an ornate white wedding gown with lace detailing and long sleeves. She wears a white floral crown over her dark hair styled in a voluminous updo, with a sheer white veil cascading behind her. She holds a bouquet of white and light-colored flowers with trailing stems. The background is plain and neutral.
 ```
 
-
 ### 2nd image prompt:
 
 ```
@@ -178,12 +173,13 @@ A black-and-white photo of an older couple standing in front of a classic Volksw
 
 ---
 
-### The following 3 implementations all use methods and models presented at *ECCV* and *SIGGRAPH*
+### The following 3 implementations ([Colorful Image Colorization](#colorful-image-colorization--repo), [Image Video Colorization](#image-video-colorization--repo) & [Interactive Deep Colorization](#interactive-deep-colorization--repo)) all use methods and models presented at *ECCV 2016* and *SIGGRAPH 2017*
 
+---
 
-# Colorful Image Colorization | [Repo](https://github.com/richzhang/colorization)
+## Colorful Image Colorization | [Repo](https://github.com/richzhang/colorization)
 
-This implementation does the colorization automatically through a demo script and then presents/saves for you a *ECCV* and *SIGGRAPH* colorized version of your input image.
+This implementation does the colorization automatically through a demo script and then presents/saves for you a *ECCV 2016* and *SIGGRAPH 2017* colorized version of your input image.
 
 | Original  | ECCV | SIGGRAPH |
 | ------------- | ------------- | ------------- |
@@ -192,7 +188,7 @@ This implementation does the colorization automatically through a demo script an
 
 ---
 
-# Image Video Colorization | [Repo](https://github.com/Wazzabeee/image-video-colorization)
+## Image Video Colorization | [Repo](https://github.com/Wazzabeee/image-video-colorization)
 
 This implementation is a bit more user friendly then the previous one has it offers a GUI. It also offers extra functionality where you can colorize input videos and YouTube links/videos along with the option of colorizing images.
 
@@ -205,11 +201,11 @@ The image colorization results is the same as the previous implementation. I did
 
 ---
 
-# Interactive Deep Colorization | [Repo](https://github.com/junyanz/interactive-deep-colorization)
+## Interactive Deep Colorization | [Repo](https://github.com/junyanz/interactive-deep-colorization)
 
 This implementation also provides a GUI. It initially does an auto colorization of your input image but then you can also manually colorize your input image. What is nice when you manually colorize your input image is that it provides you with colour hints and a color gamut which both are this implementation's estimation of what it thinks the colour should be at the point which you selected on the input image.
 
-This implementation uses model from *SIGGRAPH*.
+This implementation uses model from *SIGGRAPH 2017*.
 
 | Original  | Auto | Manual |
 | ------------- | ------------- | ------------- |
@@ -218,7 +214,7 @@ This implementation uses model from *SIGGRAPH*.
 
 ---
 
-# DeOldify | [Repo](https://github.com/jantic/DeOldify) | [Pretrained Weights](https://github.com/jantic/DeOldify?tab=readme-ov-file#pretrained-weights)
+## DeOldify | [Repo](https://github.com/jantic/DeOldify) | [Pretrained Weights](https://github.com/jantic/DeOldify?tab=readme-ov-file#pretrained-weights)
 
 This implementation can be used from a couple of places, each producing different results.
 
@@ -271,7 +267,7 @@ Unfortunately this doesn't give your image back at full resolution.
 
 ### MyHeritage In Color:
 
-Unfortunately this doesn't give your image back at full resolution.
+Unfortunately this doesn't give your image back at full resolution & has a watermark.
 
 | Original  | Colorized Result |
 | ------------- | ------------- |
@@ -281,7 +277,7 @@ Unfortunately this doesn't give your image back at full resolution.
 
 ### Google Colab:
 
-Easy to run in your browser, just have to provide a link (`source_url`) to your image before initiating Runtime. Additionally what is nice is this colab also produces multiple outputs generated with different `render_factor` values (10>38, incrementing by 2).
+Easy to run in your browser, you just have to provide a link (`source_url`) to your image before initiating Runtime. Additionally what is nice is this colab also produces multiple outputs generated with different `render_factor` values (10>38, incrementing by 2).
 
 I am only providing the result generated with `render_factor` of `35`. All the results can be seen here: [Google Colab - Stable](https://slow.pics/c/oQ2kYs3P?canvas-mode=fit-height&image-fit=contain) & [Google Colab - Artistic](https://slow.pics/c/OiJ1GVkv?canvas-mode=fit-height&image-fit=contain).
 
@@ -304,9 +300,9 @@ Here I only provide the results of the `.exe` using `Artistic colorizer with flo
 
 ---
 
-# Adobe Photoshop | [Link](https://www.adobe.com/products/photoshop.html)
+## Adobe Photoshop | [Link](https://www.adobe.com/products/photoshop.html)
 
-Using the `Colorize` `Neural Filters` from Adobe Photoshop you can get quite good results. The results I present is the default automatic colorization but you can adjust and edit the results manually to your liking.
+Using the `Colorize` `Neural Filter` from Adobe Photoshop you can get quite good results. The results I present is the default automatic colorization but you can adjust and edit the results manually to your liking.
 
 | Original  | Adobe Photoshop Neural Filters - Colorize |
 | ------------- | ------------- |
@@ -315,15 +311,18 @@ Using the `Colorize` `Neural Filters` from Adobe Photoshop you can get quite goo
 
 ---
 
-# BigColor | [Repo](https://github.com/KIMGEONUNG/BigColor) | [Download Pre-trained Models](https://drive.google.com/drive/folders/1nLzgE5WJnxp5WF1dkpa1ts6bZ6tVwtep)
+## BigColor | [Repo](https://github.com/KIMGEONUNG/BigColor) | [Download Pre-trained Models](https://drive.google.com/drive/folders/1nLzgE5WJnxp5WF1dkpa1ts6bZ6tVwtep)
 
 BigColor is a bit of a *step-up* from other implementations as it uses the models presented at *ECCV 2022*.
 
 It also provides 4 scripts with the following descriptions:
 
 **infer.bigcolor.e011.sh :** **ImageNet1K Validation :** Use this to get the same inference results as used in the paper.
+
 **colorize.real.sh :** **Real Gray Colorization :** Use this to colorize a real grayscale image with arbitrary resolution.
+
 **colorize.multi_c.sh :** **Multi-modal Solutions :** Use this to test the multiple solutions from a input (*using class vector c*).
+
 **colorize.multi_z.sh :** **Multi-modal Solutions :** Use this to test the multiple solutions from a input (*using random vector z*).
 
 BigColor also uses 'Wordnet' class classification to generate the output image which can be modified to your liking. **infer.bigcolor.e011.sh** uses a hard-coded class, **colorize.real.sh** actually determines the content of the image and then uses appropriate classes, **colorize.multi_c.sh** uses a set of random hard-coded classes and **colorize.multi_z.sh** uses a single hard-coded class.
@@ -357,7 +356,7 @@ BigColor also uses 'Wordnet' class classification to generate the output image w
 
 ### colorize.multi_z.sh:
 
-This script produced 20 results, I am only showing here 4. All the results can be seen here: [Image 1]() & [Image 2]()
+This script produced 20 results, I am only showing here 4. All the results can be seen here: [Image 1](https://slow.pics/c/hukmrLdP?canvas-mode=fit-height) & [Image 2](https://slow.pics/c/vuQkP1du?canvas-mode=fit-height)
 
 | Original  | colorize.multi_z.sh | colorize.multi_z.sh | colorize.multi_z.sh | colorize.multi_z.sh |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -366,17 +365,54 @@ This script produced 20 results, I am only showing here 4. All the results can b
 
 ---
 
+## Other Open Models (old)
+
+These models are very old and don't produce very good results but I thought I would include them for completeness.
+
+I ran them using [chaiNNer](https://github.com/chaiNNer-org/chaiNNer).
+
+### BS_Colorizer/Vapourizer | [Model](https://openmodeldb.info/models/1x-BS-Colorizer)
+
+Model description:
+> B/W | 100% Desaturated images. It mostly results in Blue and Yellow images with slight hints of Green, Orange and Magenta. You are free to use this as a pretrain to achieve better results.
+
+| Original  | BS_Colorizer/Vapourizer |
+| ------------- | ------------- |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![BS_Colorizer/Vapourizer](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BS_Colorizer%20-%20Vapourizer/1_1x_ColorizerV2_22000G.png) |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![BS_Colorizer/Vapourizer](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BS_Colorizer%20-%20Vapourizer/2_1x_ColorizerV2_22000G.png) |
+
+### SpongeColor Lite | [Model](https://openmodeldb.info/models/1x-SpongeColor-Lite)
+
+Model description:
+> The first attempt at ESRGAN colorization that produces more than 2 colors. Doesn't work that great but it was a neat experiment.
+
+| Original  | SpongeColor Lite |
+| ------------- | ------------- |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![SpongeColor Lite](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/SpongeColor%20Lite/1_1x-SpongeColor-Lite.png) |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![SpongeColor Lite](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/SpongeColor%20Lite/2_1x-SpongeColor-Lite.png) |
+
+---
+
 ### Hope you found this useful!
 
 ---
 
-## Extra
+# My Recommendations Showcase
+
+| Original  | 1st | 2nd | 3rd |
+| ------------- | ------------- | ------------- | ------------- |
+![Original]() | ![1st]() | ![2nd]() | ![3rd]() |
+![Original]() | ![1st]() | ![2nd]() | ![3rd]() |
+
+---
+
+# Extra
 
 Here is another nice [Colorization Showcase](https://phhofm.github.io/upscale/colorization.html)
 
 ---
 
-## License
+# License
 
 **Creative Commons Attribution Share Alike 4.0 International (CC-BY-SA-4.0)**
 
