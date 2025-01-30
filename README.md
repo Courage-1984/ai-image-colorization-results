@@ -6,6 +6,9 @@ This repository contains the results of various AI Colorization methods/models t
 - [Introduction](#introduction)
 - [Results](#results)
   - [DDColor](#ddcolor--repo--model-zoo)
+  - [Other Open Models (old)](#other-open-models-old)
+    - [BS_Colorizer/Vapourizer](#bs_colorizervapourizer--model)
+    - [SpongeColor Lite](#spongecolor-lite--model)
   - [iColoriT](#icolorit--repo--pretrained-icolorit-checkpoints)
   - [Text-Guided-Image-Colorization](#text-guided-image-colorization--repo--download-pre-trained-models)
   - [Colorful Image Colorization](#colorful-image-colorization--repo)
@@ -18,7 +21,7 @@ This repository contains the results of various AI Colorization methods/models t
 ## Introduction
 I tested 11 different `Github repo implementations`/`models`/`implementations`/`software` of AI Colorization.
 
-**If you only want to see the results visit:** https://github.com/Courage-1984/ai-image-colorization-results/blob/main/results.md
+**If you only want to see the results visit:** [results.md](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/results.md)
 
 note: the results I present are not definitive, you could perhaps get better results with tweaking the implementation's settings/prompts/parameters etc as well as using the manual methods where available.
 
@@ -40,12 +43,34 @@ I tested the following:
 DDColor offers 4 models (`modelscope`, `artistic`, `paper` & `paper_tiny`), of which I used 3.
 
 I ran them using [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) and I was quite pleased with the **Modelscope** results.
- 
+
 
 | Original  | Modelscope | Artistic | Paper |
 | ------------- | ------------- | ------------- | ------------- |
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![Modelscope](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DDColor/1%20(2)_ddcolor_modelscope.png) | ![Artistic](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DDColor/1%20(2)_ddcolor_artistic.png)  | ![Paper](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DDColor/1%20(2)_ddcolor_paper.png)
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![Modelscope](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DDColor/2_ddcolor_modelscope.png) | ![Artistic](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DDColor/2_ddcolor_artistic.png)  | ![Paper](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DDColor/2_ddcolor_paper.png)
+
+---
+
+# Other Open Models (old)
+
+These models are very old and don't produce very good results but I thought I would include them for completeness.
+
+I ran them using [chaiNNer](https://github.com/chaiNNer-org/chaiNNer).
+
+## BS_Colorizer/Vapourizer | [Model](https://openmodeldb.info/models/1x-BS-Colorizer)
+
+| Original  | BS_Colorizer/Vapourizer |
+| ------------- | ------------- |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="621" /> | ![BS_Colorizer/Vapourizer](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BS_Colorizer%20-%20Vapourizer/1_1x_ColorizerV2_22000G.png) |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="621" /> | ![BS_Colorizer/Vapourizer](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BS_Colorizer%20-%20Vapourizer/2_1x_ColorizerV2_22000G.png) |
+
+## SpongeColor Lite | [Model](https://openmodeldb.info/models/1x-SpongeColor-Lite)
+
+| Original  | SpongeColor Lite |
+| ------------- | ------------- |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="621" /> | ![SpongeColor Lite](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/SpongeColor%20Lite/1_1x-SpongeColor-Lite.png) |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="621" /> | ![SpongeColor Lite](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/SpongeColor%20Lite/2_1x-SpongeColor-Lite.png) |
 
 ---
 
