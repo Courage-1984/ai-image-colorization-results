@@ -128,7 +128,7 @@ Here I only provide the results of the `.exe` using `Artistic colorizer with flo
 
 ---
 
-## Adobe Photoshop
+### Adobe Photoshop
 
 | Original  | Adobe Photoshop Neural Filters - Colorize |
 | ------------- | ------------- |
@@ -137,7 +137,37 @@ Here I only provide the results of the `.exe` using `Artistic colorizer with flo
 
 ---
 
-## 
+### BigColor
+
+#### infer.bigcolor.e011.sh:
+
+| Original  | infer.bigcolor.e011.sh |
+| ------------- | ------------- |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![infer.bigcolor.e011.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_bigcolor/1_class0-tench-n01440764_size3577_resizepowerof_power4_target256_lab_upscale_epoch11.jpg) |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![infer.bigcolor.e011.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_bigcolor/2_class0-tench-n01440764_size621_resizepowerof_power4_target256_lab_upscale_epoch11.jpg) |
+
+#### colorize.real.sh:
+
+| Original  | colorize.real.sh |
+| ------------- | ------------- |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![colorize.real.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_real/1_topk5_size3577_resizepowerof_power4_target256_modeltf_efficientnet_l2_ns_475.jpg.jpg) |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![colorize.real.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_real/2_topk5_size621_resizepowerof_power4_target256_modeltf_efficientnet_l2_ns_475.jpg.jpg) |
+
+#### colorize.multi_c.sh:
+
+| Original  | colorize.multi_c.sh | colorize.multi_c.sh | colorize.multi_c.sh | colorize.multi_c.sh | colorize.multi_c.sh |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="247" /> | ![colorize.multi_c.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_c/1_class100-black_swan-n01860187_scale1.0_bias0.0.jpg) | ![colorize.multi_c.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_c/1_class11-goldfinch-n01531178_scale1.0_bias0.0.jpg) | ![colorize.multi_c.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_c/1_class14-indigo_bunting-n01537544_scale1.0_bias0.0.jpg) | ![colorize.multi_c.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_c/1_class15-robin-n01558993_scale1.0_bias0.0.jpg) | ![colorize.multi_c.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_c/1_class88-macaw-n01818515_scale1.0_bias0.0.jpg) |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="247" /> | ![colorize.multi_c.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_c/2_class100-black_swan-n01860187_scale1.0_bias0.0.jpg) | ![colorize.multi_c.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_c/2_class11-goldfinch-n01531178_scale1.0_bias0.0.jpg) | ![colorize.multi_c.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_c/2_class14-indigo_bunting-n01537544_scale1.0_bias0.0.jpg) | ![colorize.multi_c.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_c/2_class15-robin-n01558993_scale1.0_bias0.0.jpg) | ![colorize.multi_c.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_c/2_class88-macaw-n01818515_scale1.0_bias0.0.jpg) |
+
+#### colorize.multi_z.sh:
+
+This script produced 20 results, I am only showing here 4. All the results can be seen here: [Image 1]() & [Image 2]()
+
+| Original  | colorize.multi_z.sh | colorize.multi_z.sh | colorize.multi_z.sh | colorize.multi_z.sh |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="147" /> | ![colorize.multi_z.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_z/1/z00_class15-robin-n01558993_std3.0_mu0.0_seedrandom.jpg) | ![colorize.multi_z.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_z/1/z07_class15-robin-n01558993_std3.0_mu0.0_seedrandom.jpg) | ![colorize.multi_z.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_z/1/z13_class15-robin-n01558993_std3.0_mu0.0_seedrandom.jpg) | ![colorize.multi_z.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_z/1/z19_class15-robin-n01558993_std3.0_mu0.0_seedrandom.jpg) |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="147" /> | ![colorize.multi_z.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_z/2/z00_class15-robin-n01558993_std3.0_mu0.0_seedrandom.jpg) | ![colorize.multi_z.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_z/2/z07_class15-robin-n01558993_std3.0_mu0.0_seedrandom.jpg) | ![colorize.multi_z.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_z/2/z13_class15-robin-n01558993_std3.0_mu0.0_seedrandom.jpg) | ![colorize.multi_z.sh](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BigColor/results_multi_z/2/z19_class15-robin-n01558993_std3.0_mu0.0_seedrandom.jpg) |
 
 ---
 
