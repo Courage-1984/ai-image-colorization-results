@@ -12,6 +12,8 @@ This repository contains the results of various AI Colorization methods/models t
   - [Image Video Colorization](#image-video-colorization--repo)
   - [Interactive Deep Colorization](#interactive-deep-colorization--repo)
   - [DeOldify](#deoldify--repo--pretrained-weights)
+- [Extra](#extra)
+- [License](#license)
 
 ## Introduction
 I tested 11 different `Github repo implementations`/`models`/`implementations`/`software` of AI Colorization.
@@ -238,3 +240,18 @@ Unfortunately this doesn't give your image back at full resolution.
 
 ### Hope you found this useful!
 
+---
+
+## Extra
+
+Here is another nice [Colorization Showcase](https://phhofm.github.io/upscale/colorization.html)
+
+---
+
+## License
+
+**Creative Commons Attribution Share Alike 4.0 International (CC-BY-SA-4.0)**
+
+[AI Image Colorization Results](https://github.com/Courage-1984/ai-image-colorization-results) © 2025 by [Courage (Courage-1984)](https://github.com/Courage-1984) is licensed under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)  <img width="20" height="20" src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/cc.png">   <img width="20" height="20" src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/cc-by.png">   <img width="20" height="20" src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/cc-sa.png"> 
+
+---
