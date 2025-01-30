@@ -220,11 +220,11 @@ This implementation can be used from a couple of places, each producing differen
 
 I have tested the following 5 methods:
 
-1. [Stable Diffusion Web UI Plugin](https://github.com/SpenserCai/sd-webui-deoldify)
-2. [DeOldify Image Colorization on DeepAI](https://deepai.org/machine-learning-model/colorizer)
-3. [MyHeritage In Color](https://www.myheritage.com/incolor)
-4. [Google Colab - Stable](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColabStable.ipynb) | [Google Colab - Artistic](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb)
-5. [DeOldify.NET](https://github.com/ColorfulSoft/DeOldify.NET)
+1. [Stable Diffusion Web UI Plugin](https://github.com/SpenserCai/sd-webui-deoldify) - [Jump to the results]()
+2. [DeOldify Image Colorization on DeepAI](https://deepai.org/machine-learning-model/colorizer) - [Jump to the results]()
+3. [MyHeritage In Color](https://www.myheritage.com/incolor) - [Jump to the results]()
+4. [Google Colab - Stable](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColabStable.ipynb) | [Google Colab - Artistic](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb) - [Jump to the results]()
+5. [DeOldify.NET](https://github.com/ColorfulSoft/DeOldify.NET) - [Jump to the results]()
 
 Here is the descriptions of the 5 methods provided by the repo:
 
@@ -236,7 +236,7 @@ Here is the descriptions of the 5 methods provided by the repo:
 
 ### DeOldify Results:
 
-### Stable Diffusion Web UI Plugin:
+### Stable Diffusion Web UI Plugin: | [Link](https://github.com/SpenserCai/sd-webui-deoldify)
 
 For this method there is 4 results as I used all the various possible combinations of the settings of this plugin.
 
@@ -255,7 +255,7 @@ The **DeOldify Stable Diffusion Web UI Plugin Settings** were as follows:
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="934" /> | ![1st combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/2%201st.png) | ![2nd combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/2%202nd.png)  | ![3rd combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/2%203rd.png) | ![4th combination](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/sd-webui-deoldify/2%204th.png)
 
 
-### DeOldify Image Colorization on DeepAI:
+### DeOldify Image Colorization on DeepAI: | [Link](https://deepai.org/machine-learning-model/colorizer)
 
 Unfortunately this doesn't give your image back at full resolution.
 
@@ -265,7 +265,7 @@ Unfortunately this doesn't give your image back at full resolution.
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="554" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/deepai/2.jpg) |
 
 
-### MyHeritage In Color:
+### MyHeritage In Color: | [Link](https://www.myheritage.com/incolor#)
 
 Unfortunately this doesn't give your image back at full resolution & has a watermark.
 
@@ -275,7 +275,7 @@ Unfortunately this doesn't give your image back at full resolution & has a water
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/2.jpg) |
 
 
-### Google Colab:
+### Google Colab: | [Link 1](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColabStable.ipynb) | [Link 2](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb)
 
 Easy to run in your browser, you just have to provide a link (`source_url`) to your image before initiating Runtime. Additionally what is nice is this colab also produces multiple outputs generated with different `render_factor` values (10>38, incrementing by 2).
 
@@ -287,7 +287,7 @@ I am only providing the result generated with `render_factor` of `35`. All the r
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![Stable 35](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/Google%20Colab/2-Stable%20Colorizer/2-Stable%20Colorizer-35.png) | ![Artistic 35](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/Google%20Colab/2-Artistic%20Colorizer/2-Artistic%20Colorizer-35.png) |
 
 
-### DeOldify.NET:
+### DeOldify.NET: | [Link](https://github.com/ColorfulSoft/DeOldify.NET)
 
 You run scripts to create `.exe` files which each uses different models. The `.exe` then gives you a nice GUI to select input image, 'DeOldify' and save output image.
 
