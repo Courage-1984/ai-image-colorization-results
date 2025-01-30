@@ -14,6 +14,12 @@
 ![Original]() | ![Modelscope]() |
 
 
+| Original  | Modelscope | Modelscope |
+| ------------- | ------------- | ------------- |
+![Original]() | ![Modelscope]() | ![Modelscope]() |
+![Original]() | ![Modelscope]() | ![Modelscope]() |
+
+
 | Original  | ECCV | SIGGRAPH |
 | ------------- | ------------- | ------------- |
 <img src="" width="621" /> | <img src="" width="621" /> | <img src="" width="621" /> |

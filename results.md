@@ -106,6 +106,15 @@
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/1.jpg) |
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/2.jpg) |
 
+
+### Google Colab:
+
+| Original  | Stable 35 | Artistic 35 |
+| ------------- | ------------- | ------------- |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![Stable 35](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/Google%20Colab%20Results/1-Stable%20Colorizer/1-Stable%20Colorizer-35.png) | ![Artistic 35](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/Google%20Colab%20Results/1-Artistic%20Colorizer/1-Artistic%20Colorizer-35.png) |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![Stable 35](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/Google%20Colab%20Results/2-Stable%20Colorizer/2-Stable%20Colorizer-35.png) | ![Artistic 35](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/Google%20Colab%20Results/2-Artistic%20Colorizer/2-Artistic%20Colorizer-35.png) |
+
+
 ---
 
 ## Adobe Photoshop

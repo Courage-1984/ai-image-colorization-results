@@ -15,6 +15,11 @@ This repository contains the results of various AI Colorization methods/models t
   - [Image Video Colorization](#image-video-colorization--repo)
   - [Interactive Deep Colorization](#interactive-deep-colorization--repo)
   - [DeOldify](#deoldify--repo--pretrained-weights)
+    - [Stable Diffusion Web UI Plugin](#stable-diffusion-web-ui-plugin)
+    - [DeOldify Image Colorization on DeepAI](#deoldify-image-colorization-on-deepai)
+    - [MyHeritage In Color](#myheritage-in-color)
+    - [Google Colab](#google-colab)
+    - [DeOldify.NET](#deoldifynet)
   - [Adobe Photoshop](#adobe-photoshop--Link)
 - [Extra](#extra)
 - [License](#license)
@@ -216,20 +221,23 @@ This implementation uses model from *SIGGRAPH*.
 
 This implementation can be used from a couple of places, each producing different results.
 
-I have tested the following 3 methods:
+I have tested the following 5 methods:
 
 1. [Stable Diffusion Web UI Plugin](https://github.com/SpenserCai/sd-webui-deoldify)
 2. [DeOldify Image Colorization on DeepAI](https://deepai.org/machine-learning-model/colorizer)
 3. [MyHeritage In Color](https://www.myheritage.com/incolor)
+4. [Google Colab - Stable](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColabStable.ipynb) | [Google Colab - Artistic](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb)
+5. [DeOldify.NET](https://github.com/ColorfulSoft/DeOldify.NET)
 
-Here is the descriptions of the 3 methods provided by the repo:
+Here is the descriptions of the 5 methods provided by the repo:
 
 1. **Stable Diffusion Web UI Plugin:** Stable Diffusion Web UI Plugin- Photos and video, cross-platform (NEW!).
-2. **DeOldify Image Colorization on DeepAI:** Quick Start: The easiest way to colorize images using open source DeOldify (for free!)
+2. **DeOldify Image Colorization on DeepAI:** Quick Start: The easiest way to colorize images using open source DeOldify (for free!).
 3. **MyHeritage In Color:** The most advanced version of DeOldify image colorization is available here, exclusively. Try a few images for free! 
+4. **Google Colab - Stable & Artistic:** *no real description provided.*
+5. **DeOldify.NET:** ColorfulSoft Windows GUI- Photos/Windows only (No GPU required!).
 
 ### DeOldify Results:
-
 
 ### Stable Diffusion Web UI Plugin:
 
@@ -268,6 +276,25 @@ Unfortunately this doesn't give your image back at full resolution.
 | ------------- | ------------- |
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/1.jpg) |
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/2.jpg) |
+
+
+### Google Colab:
+
+Easy to run in your browser, just have to provide a link (`source_url`) to your image before initiating Runtime. Additionally what is nice is this colab also produces multiple outputs generated with different `render_factor` values (10>38, incrementing by 2).
+
+I am only providing the result generated with `render_factor` of `35`. All the results can be seen here: [Google Colab - Stable]() & [Google Colab - Artistic]().
+
+| Original  | Stable 35 | Artistic 35 |
+| ------------- | ------------- | ------------- |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![Stable 35](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/Google%20Colab%20Results/1-Stable%20Colorizer/1-Stable%20Colorizer-35.png) | ![Artistic 35](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/Google%20Colab%20Results/1-Artistic%20Colorizer/1-Artistic%20Colorizer-35.png) |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![Stable 35](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/Google%20Colab%20Results/2-Stable%20Colorizer/2-Stable%20Colorizer-35.png) | ![Artistic 35](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/Google%20Colab%20Results/2-Artistic%20Colorizer/2-Artistic%20Colorizer-35.png) |
+
+
+### DeOldify.NET:
+
+description
+
+
 
 ---
 
