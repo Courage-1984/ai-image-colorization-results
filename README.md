@@ -16,7 +16,7 @@ This repository contains the results of various AI Colorization methods/models t
     - [Stable Diffusion Web UI Plugin](#stable-diffusion-web-ui-plugin--link)
     - [DeOldify Image Colorization on DeepAI](#deoldify-image-colorization-on-deepai--link)
     - [MyHeritage In Color](#myheritage-in-color--link)
-    - [Google Colab](#google-colab--link--link)
+    - [Google Colab](#google-colab--link-1--link-2)
     - [DeOldify.NET](#deoldifynet--link)
   - [Adobe Photoshop](#adobe-photoshop--Link)
   - [BigColor](#bigcolor--repo--download-pre-trained-models)
