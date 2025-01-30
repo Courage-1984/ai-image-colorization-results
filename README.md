@@ -15,6 +15,7 @@ This repository contains the results of various AI Colorization methods/models t
   - [Image Video Colorization](#image-video-colorization--repo)
   - [Interactive Deep Colorization](#interactive-deep-colorization--repo)
   - [DeOldify](#deoldify--repo--pretrained-weights)
+  - [Adobe Photoshop](#adobe-photoshop--Link)
 - [Extra](#extra)
 - [License](#license)
 
@@ -28,6 +29,8 @@ note: the results I present are not definitive, you could perhaps get better res
 I tested the following:
 
  - https://github.com/piddnad/DDColor - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#ddcolor--repo--model-zoo)
+ - https://openmodeldb.info/models/1x-BS-Colorizer - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#bs_colorizervapourizer--model)
+ - https://openmodeldb.info/models/1x-SpongeColor-Lite - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#spongecolor-lite--model)
  - https://github.com/pmh9960/iColoriT - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#icolorit--repo--pretrained-icolorit-checkpoints)
  - https://github.com/nick8592/text-guided-image-colorization - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#text-guided-image-colorization--repo--download-pre-trained-models)
  - https://github.com/richzhang/colorization - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#colorful-image-colorization--repo)
@@ -60,12 +63,18 @@ I ran them using [chaiNNer](https://github.com/chaiNNer-org/chaiNNer).
 
 ## BS_Colorizer/Vapourizer | [Model](https://openmodeldb.info/models/1x-BS-Colorizer)
 
+Model description:
+> B/W | 100% Desaturated images. It mostly results in Blue and Yellow images with slight hints of Green, Orange and Magenta. You are free to use this as a pretrain to achieve better results.
+
 | Original  | BS_Colorizer/Vapourizer |
 | ------------- | ------------- |
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![BS_Colorizer/Vapourizer](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BS_Colorizer%20-%20Vapourizer/1_1x_ColorizerV2_22000G.png) |
 ![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![BS_Colorizer/Vapourizer](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/BS_Colorizer%20-%20Vapourizer/2_1x_ColorizerV2_22000G.png) |
 
 ## SpongeColor Lite | [Model](https://openmodeldb.info/models/1x-SpongeColor-Lite)
+
+Model description:
+> The first attempt at ESRGAN colorization that produces more than 2 colors. Doesn't work that great but it was a neat experiment.
 
 | Original  | SpongeColor Lite |
 | ------------- | ------------- |
@@ -260,6 +269,16 @@ Unfortunately this doesn't give your image back at full resolution.
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/1.jpg) |
 <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="894" /> | ![Colorized Result](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/2.jpg) |
 
+---
+
+# Adobe Photoshop | [Link](https://www.adobe.com/products/photoshop.html)
+
+Using the `Colorize` `Neural Filters` from Adobe Photoshop you can get quite good results. The results I present is the default automatic colorization but you can adjust and edit the results manually to your liking.
+
+| Original  | Adobe Photoshop Neural Filters - Colorize |
+| ------------- | ------------- |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![Adobe Photoshop_Neural Filters_Colorize](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/Adobe%20Photoshop/1_Adobe%20Photoshop_Neural%20Filters_Colorize.png) |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![Adobe Photoshop_Neural Filters_Colorize](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/Adobe%20Photoshop/2_Adobe%20Photoshop_Neural%20Filters_Colorize.png) |
 
 ---
 
