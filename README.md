@@ -60,11 +60,11 @@ Scroll to the bottom or [click here to go to 'My Recommendations' Showcase](#my-
 
 I do invite you though to read the rest of the [README.md](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/README.md) as it is quite interesting and informative and you might find something you wanted that is perhaps not here in 'My Recommendations'. Remember 'My Recommendations' is subjective and the testing/evaluations was done on a small dataset and with a basic understanding of the different implementations' *scripts*.
 
-So here are my recommendations:
+So here are my recommendations: ([Jump to Results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#my-recommendations-showcase))
 
-1. 
-2. 
-3. 
+1. [MyHeritage In Color](https://www.myheritage.com/incolor#)
+2. [DeOldify.NET](https://github.com/ColorfulSoft/DeOldify.NET)
+3. [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
 
 ---
 
@@ -220,11 +220,11 @@ This implementation can be used from a couple of places, each producing differen
 
 I have tested the following 5 methods:
 
-1. [Stable Diffusion Web UI Plugin](https://github.com/SpenserCai/sd-webui-deoldify) - [Jump to the results]()
-2. [DeOldify Image Colorization on DeepAI](https://deepai.org/machine-learning-model/colorizer) - [Jump to the results]()
-3. [MyHeritage In Color](https://www.myheritage.com/incolor) - [Jump to the results]()
-4. [Google Colab - Stable](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColabStable.ipynb) | [Google Colab - Artistic](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb) - [Jump to the results]()
-5. [DeOldify.NET](https://github.com/ColorfulSoft/DeOldify.NET) - [Jump to the results]()
+1. [Stable Diffusion Web UI Plugin](https://github.com/SpenserCai/sd-webui-deoldify) - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#stable-diffusion-web-ui-plugin--link)
+2. [DeOldify Image Colorization on DeepAI](https://deepai.org/machine-learning-model/colorizer) - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#deoldify-image-colorization-on-deepai--link)
+3. [MyHeritage In Color](https://www.myheritage.com/incolor) - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#myheritage-in-color--link)
+4. [Google Colab - Stable](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColabStable.ipynb) | [Google Colab - Artistic](https://colab.research.google.com/github/jantic/DeOldify/blob/master/ImageColorizerColab.ipynb) - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#google-colab--link-1--link-2)
+5. [DeOldify.NET](https://github.com/ColorfulSoft/DeOldify.NET) - [Jump to the results](https://github.com/Courage-1984/ai-image-colorization-results?tab=readme-ov-file#deoldifynet--link)
 
 Here is the descriptions of the 5 methods provided by the repo:
 
@@ -399,10 +399,10 @@ Model description:
 
 # My Recommendations Showcase
 
-| Original  | 1st | 2nd | 3rd |
+| Original  | 1st: [MyHeritage In Color](https://www.myheritage.com/incolor#) | 2nd: [DeOldify.NET](https://github.com/ColorfulSoft/DeOldify.NET) | 3rd: [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) |
 | ------------- | ------------- | ------------- | ------------- |
-![Original]() | ![1st]() | ![2nd]() | ![3rd]() |
-![Original]() | ![1st]() | ![2nd]() | ![3rd]() |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![MyHeritage In Color]() | ![DeOldify.NET]() | ![Adobe Photoshop]() |
+![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![MyHeritage In Color]() | ![DeOldify.NET]() | ![Adobe Photoshop]() |
 
 ---
 
