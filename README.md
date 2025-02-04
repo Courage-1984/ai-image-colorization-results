@@ -401,8 +401,8 @@ Model description:
 
 | Original  | 1st: [MyHeritage In Color](https://www.myheritage.com/incolor#) | 2nd: [DeOldify.NET](https://github.com/ColorfulSoft/DeOldify.NET) | 3rd: [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) |
 | ------------- | ------------- | ------------- | ------------- |
-![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png) | ![MyHeritage In Color]() | ![DeOldify.NET]() | ![Adobe Photoshop]() |
-![Original](https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png) | ![MyHeritage In Color]() | ![DeOldify.NET]() | ![Adobe Photoshop]() |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="147" /> | ![MyHeritage In Color]() | ![DeOldify.NET]() | ![Adobe Photoshop]() |
+<img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="147" /> | ![MyHeritage In Color]() | ![DeOldify.NET]() | ![Adobe Photoshop]() |
 
 ---
 
