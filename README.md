@@ -65,6 +65,8 @@ So here are my recommendations: ([Jump to Results](https://github.com/Courage-19
 1. [MyHeritage In Color](https://www.myheritage.com/incolor#)
 2. [DeOldify.NET (stable)](https://github.com/ColorfulSoft/DeOldify.NET)
 3. [Adobe Photoshop](https://www.adobe.com/products/photoshop.html)
+4. [DDColor (modelscope)](https://github.com/piddnad/DDColor)
+5. [Interactive Deep Colorization (manual)](https://github.com/junyanz/interactive-deep-colorization)
 
 ---
 
@@ -399,10 +401,10 @@ Model description:
 
 # My Recommendations Showcase
 
-| Original  | 1st: [MyHeritage In Color](https://www.myheritage.com/incolor#) | 2nd: [DeOldify.NET (stable)](https://github.com/ColorfulSoft/DeOldify.NET) | 3rd: [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) |
-| ------------- | ------------- | ------------- | ------------- |
- <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/1.jpg" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/DeOldify.NET/Stable/1-DeOldify.NET.stable_float32.windows.png" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/Adobe%20Photoshop/1_Adobe%20Photoshop_Neural%20Filters_Colorize.png" width="250" /> |
- <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/2.jpg" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/DeOldify.NET/Stable/2-DeOldify.NET.stable_float32.windows.png" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/Adobe%20Photoshop/2_Adobe%20Photoshop_Neural%20Filters_Colorize.png" width="250" /> |
+| Original  | 1st: [MyHeritage In Color](https://www.myheritage.com/incolor#) | 2nd: [DeOldify.NET (stable)](https://github.com/ColorfulSoft/DeOldify.NET) | 3rd: [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) | 4th: [DDColor (modelscope)](https://github.com/piddnad/DDColor) | 5th: [Interactive Deep Colorization (manual)](https://github.com/junyanz/interactive-deep-colorization) |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+ <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/1.png" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/1.jpg" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/DeOldify.NET/Stable/1-DeOldify.NET.stable_float32.windows.png" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/Adobe%20Photoshop/1_Adobe%20Photoshop_Neural%20Filters_Colorize.png" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DDColor/1%20(2)_ddcolor_modelscope.png" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/interactive-deep-colorization/1%20manual.png" width="250" /> 
+ <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/bw_images/2.png" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/myheritage/2.jpg" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DeOldify/DeOldify.NET/Stable/2-DeOldify.NET.stable_float32.windows.png" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/Adobe%20Photoshop/2_Adobe%20Photoshop_Neural%20Filters_Colorize.png" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/DDColor/2_ddcolor_modelscope.png" width="250" /> | <img src="https://github.com/Courage-1984/ai-image-colorization-results/blob/main/Colorization_tests/Results/interactive-deep-colorization/2%20manual.png" width="250" /> 
 
 ---
 
